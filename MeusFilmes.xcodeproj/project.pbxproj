@@ -48,16 +48,6 @@
 			path = MeusFilmes;
 			sourceTree = "<group>";
 		};
-		34A2BFCA2CE97DD600F32620 /* MeusFilmesTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MeusFilmesTests;
-			sourceTree = "<group>";
-		};
-		34A2BFD42CE97DD600F32620 /* MeusFilmesUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MeusFilmesUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				34A2BFB32CE97DD400F32620 /* MeusFilmes */,
-				34A2BFCA2CE97DD600F32620 /* MeusFilmesTests */,
-				34A2BFD42CE97DD600F32620 /* MeusFilmesUITests */,
 				34A2BFB22CE97DD400F32620 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				34A2BFC92CE97DD600F32620 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				34A2BFCA2CE97DD600F32620 /* MeusFilmesTests */,
-			);
 			name = MeusFilmesTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				34A2BFD32CE97DD600F32620 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				34A2BFD42CE97DD600F32620 /* MeusFilmesUITests */,
 			);
 			name = MeusFilmesUITests;
 			packageProductDependencies = (
