@@ -64,6 +64,9 @@ class ViewController: UITableViewController {
         celula.tituloLabel.text = filme.titulo
         celula.descricaoLabel.text = filme.descricao
         
+        /*
+        celula.filmeImageView.layer.cornerRadius = 42
+        celula.filmeImageView.clipsToBounds = true*/
         
         /*celula.textLabel?.text = filme.titulo
         celula.imageView?.image = filme.imagem*/
@@ -78,4 +81,3 @@ class ViewController: UITableViewController {
 
 
 }
-
